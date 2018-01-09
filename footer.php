@@ -57,7 +57,6 @@
 						<ul>
 							<li><a target="_blank" href="<?php the_field('facebook_link', 'option'); ?>"><i class="fa fa-facebook"></i> Facebook</a></li>
 							<li><a target="_blank" href="<?php the_field('twitter_link', 'option'); ?>"><i class="fa fa-twitter"></i> Twitter</a></li>
-							<li><a target="_blank" href="<?php the_field('google_plus_link', 'option'); ?>"><i class="fa fa-google-plus"></i> Google Plus</a></li>
 							<li><a target="_blank" href="<?php the_field('instagram_link', 'option'); ?>"><i class="fa fa-instagram"></i> Instagram</a></li>
 						</ul>
 					
@@ -70,8 +69,8 @@
 						<ul>
 							<?php if( get_field('phone_number_1', 'option') ): ?><li><a href="<?php the_field('phone_number_1', 'option'); ?>"><i class="fa fa-phone"></i> <?php the_field('phone_number_1', 'option'); ?></a></li><?php endif; ?>
 							<?php if( get_field('phone_number_2', 'option') ): ?><li><a href="<?php the_field('phone_number_2', 'option'); ?>"><i class="fa fa-phone"></i> <?php the_field('phone_number_2', 'option'); ?></a></li><?php endif; ?>
-							<li><a target="_blank" href="<?php the_field('address_link', 'option'); ?>"><i class="fa fa-map-marker"></i> <?php the_field('address', 'option'); ?></li>
-							<li><a href="mailto:<?php the_field('email_address', 'option'); ?>"><i class="fa fa-envelope"></i> <u>Click Here</u> To mail us</a></li>
+							<?php if( get_field('address', 'option') ): ?><li><a target="_blank" href="<?php the_field('address_link', 'option'); ?>"><i class="fa fa-map-marker"></i> <?php the_field('address', 'option'); ?></li><?php endif; ?>
+							<li><a href="mailto:<?php the_field('email_address', 'option'); ?>"><i class="fa fa-envelope"></i> <u>Email Us</u></a></li>
 						</ul>
 						
 						<p class="copyr"><?php the_field('copyright', 'option'); ?></p>

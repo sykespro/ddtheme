@@ -61,7 +61,6 @@
 					<a href="<?php the_field('instagram_link', 'option'); ?>" target="_blank" class="fa fa-instagram"></a>
 					<a href="<?php the_field('facebook_link', 'option'); ?>" target="_blank" class="fa fa-facebook"></a>
 					<a href="<?php the_field('twitter_link', 'option'); ?>" target="_blank" class="fa fa-twitter"></a>
-					<a href="<?php the_field('google_plus_link', 'option'); ?>" target="_blank" class="fa fa-google-plus"></a>
 					
 				</aside>
 			
