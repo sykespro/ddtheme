@@ -1,0 +1,246 @@
+
+@media only screen and (max-width: 767px){
+
+	#headerCntr { padding: 8px 0; }
+	
+	.headerTop { display: none; }
+	
+	.logoBox { margin: 0px; width: 90px; }
+	
+	.menuBox { display: none; }
+	
+	.addBox { display: none; }
+	
+	.mobilemenuBox { display: block; }
+	
+	.bannerBox .item { padding: 30px 0 50px 0; height: auto; }
+	.bannerBox .text { margin-left: 0; padding: 20px; position: static; width: 100%; height: auto; float: left; border-radius: 8px; }
+	.bannerBox h2 { font-size: 28px; }
+	.bannerBox strong { font-size: 36px; line-height: normal; }
+	.bannerBox .shape { font-size: 18px; line-height: 24px; }
+	.bannerBox .shape span { font-size: 60px; }
+	
+	.bannerBox .owl-dots { width: 100%; top: auto; right: 0; bottom: 5px; text-align: center; }
+	.bannerBox .owl-dots .owl-dot { margin: 0 3px; display: inline-block; }
+	
+	.innerbannerBox { padding: 50px 0; min-height: auto; }
+	.innerbannerBox .text { margin-left: 0; padding: 20px; position: static; width: auto; height: auto; float: left; border-radius: 8px; }
+	.innerbannerBox h2 { font-size: 24px; }
+	
+	.breadcrumbBox { font-size: 14px; }
+	
+	.holidayBox { padding: 40px 0; }
+	.holidayBox .text { padding-top: 25px; }
+	.holidayBox h2 { font-size: 18px; }
+	.holidayBox h4 { font-size: 26px; }
+	.holidayBox h3 { font-size: 22px; }
+	
+	.holidayBox .text li { font-size: 16px; }
+	
+	.serviceBox { padding: 40px 0; }
+	.serviceBox .item .sub .under { padding: 10px; }
+	.serviceBox .item .sub h3 { font-size: 22px; }
+	.serviceBox .item .sub span { font-size: 16px; }
+	
+	.bagBox { padding: 40px 0; text-align: center; }
+	.bagBox .bag { float: none; display: inline-block; }
+	.bagBox .bag .image { margin: 10px 0; }
+	.bagBox .text { padding: 15px 0 0 0; width: 100%; }
+	.bagBox .logo { display: inline-block; float: none; }
+	
+	.eventsBox { padding: 40px 10px; }
+	.eventsBox .event h2 { font-size: 32px; }
+	.eventsBox .event .sub { padding: 15px; }
+	.eventsBox .event li { padding: 8px 0; }
+	.eventsBox .item .sub { padding: 20px; }
+	.eventsBox .item .text { padding: 20px; font-size: 16px; line-height: 26px; }
+	.eventsBox .item .text h3 { font-size: 20px; }
+	.eventsBox .item .text p { padding: 0px; }
+	
+	.newsBox { padding: 40px 0; }
+	.newsBox .left .item { margin-bottom: 40px; }
+	.newsBox .left .date { width: 100%; }
+	.newsBox .left .news { width: 100%; }
+	.newsBox .left .news h3 { font-size: 24px; line-height: normal; }
+	.newsBox .left .page { padding: 0px; }
+	.newsBox .right { padding-top: 35px; }
+	.newsBox .right .bag { width: 100%; }
+	.newsBox .right .visit { width: 100%; }
+	
+	.storeArea { padding: 40px 0; }
+	.storeArea .rightColmun { padding-top: 20px; }
+	.storeArea .rightColmun .services .image { margin-bottom: 10px; width: 100%; }
+	.storeArea .rightColmun .services .text { width: 100%; }
+	.storeArea .rightColmun .product h2 { font-size: 22px; }
+	
+	.productdetailsBox .text { padding-left: 15px; padding-top: 20px; }
+	.productdetailsBox .text h3 { font-size: 22px; }
+	.productdetailsBox .text .mybtn { padding: 7px 18px; font-size: 14px; }
+	
+	
+	.historyBox { padding: 40px 0; }
+	.historyBox .text { padding-right: 15px; padding-bottom: 30px; }
+	.historyBox h2 { font-size: 30px; }
+	
+	.contactusArea .address { padding: 30px 0; }
+	.contactusArea .address li, .contactusArea .address li:first-child { padding: 10px 0; width: 100%; text-align: center; border-right: none; border-bottom: 1px solid #a0a1a3; }
+	.contactusArea .address li:last-child { border-bottom: none; }
+	.contactusArea .address li a { font-size: 14px; }
+	.contactusArea .address li a i { margin: 0 0 10px 0; }
+	.contactusArea .address li a span { display: block; text-align: center; }
+	
+	.contactusArea .contactus { padding: 50px 0; }
+	.contactusArea .contactus h2 { font-size: 28px; }
+	.contactusArea .contactus .wpcf7-form-control-wrap { width: 100%; }
+	
+	.footerTop .stay { width: 100%; }
+	.footerTop .stay h2 { margin: 0 0 10px 0; font-size: 30px; }
+	.footerTop .stay form { width: 100%; }
+	.footerTop .stay div { width: 100%; float: left; }
+	.footerTop .stay .style, .footerTop .stay .tnp-email { width: 100%; }
+	.footerTop .stay .mybtn, .footerTop .stay .tnp-submit { margin: 0px; }
+	
+	.footerBottom { padding: 40px 0; }
+	.footerBottom .link { padding-top: 25px; }
+	.footerBottom .copyr { margin-top: 45px; text-align: center; }
+	
+	
+}
+
+
+@media only screen and (min-width: 576px) and (max-width: 767px){
+	
+	.storeArea .rightColmun .product .item { width: 50%; } 
+	.storeArea .rightColmun .product .sub h3 { font-size: 14px; }
+	
+	.storeArea .rightColmun .services .image { width: 33%; }
+	.storeArea .rightColmun .services .text { width: 65%; font-size: 15px; } 
+	
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	
+	.addBox { display: none; }
+	
+	.menuBox li { margin: 0 15px 0 0; }
+	.menuBox li a { font-size: 14px; }
+	.menuBox .donate { font-size: 14px; }
+	
+	.bannerBox .text { margin-left: -180px; left: 0px; }
+	.bannerBox .owl-dots { right: 20px; }
+	
+	.innerbannerBox .text { margin-left: -180px; left: 0px; }
+	.innerbannerBox h2 { font-size: 24px; }
+	
+	.holidayBox { padding: 50px 0; }
+	.holidayBox h2 { font-size: 20px; }
+	.holidayBox h3 { font-size: 20px; }
+	.holidayBox .text li { margin-bottom: 10px; font-size: 16px; }
+	
+	.serviceBox { padding: 50px 0; }
+	.serviceBox .item .sub .under { padding: 10px; }
+	
+	.bagBox .text h3 { font-size: 22px; line-height: 30px; }
+	.bagBox .logo { display: none; }
+	
+	.eventsBox { padding: 65px 0; }
+	.eventsBox .event .sub { padding: 20px; }
+	.eventsBox .event li { padding: 8px 0; }
+	.eventsBox .event h2 { font-size: 28px; }
+	.eventsBox .item .sub { padding: 30px; }
+	.eventsBox .item .text { padding: 20px; }
+	.eventsBox .item .text h3 { font-size: 22px; }
+	.eventsBox .item .text p { padding: 0px; }
+	
+	.newsBox { padding: 50px 0; }
+	.newsBox .left .item { margin-bottom: 40px; }
+	.newsBox .left .date { width: 100%; }
+	.newsBox .left .news { width: 100%; }
+	.newsBox .left .news h3 { font-size: 24px; line-height: normal; }
+	.newsBox .left .page { padding: 0px; }
+	.newsBox .right .bag { width: 100%; }
+	.newsBox .right .visit { width: 100%; }
+	
+	.storeArea .rightColmun { padding-top: 30px; }
+	.storeArea .rightColmun .packages .item:nth-of-type(2n+3) { clear: both; }
+	.storeArea .rightColmun .packages .item:nth-of-type(3n+4) { clear: none; }
+	
+	.productdetailsBox .text { padding-left: 15px; }
+	.productdetailsBox .text h3 { font-size: 30px; }
+	
+	.historyBox { padding: 50px 0; }
+	.historyBox .text { padding-right: 15px; }
+	.historyBox h2 { font-size: 34px; }
+	
+	.yearsArea .item:nth-of-type(3n+4) { clear: none; }
+	.yearsArea .item:nth-of-type(2n+3) { clear: both; }
+	
+	.contactusArea .address { padding: 30px 0; }
+	.contactusArea .address li, .contactusArea .address li:first-child { padding: 10px 0; width: 100%; text-align: center; border-right: none; }
+	
+	.footerTop .stay h2 { margin: 17px 20px 0 0; font-size: 22px; }
+	.footerTop .stay .style, .footerTop .stay .tnp-email { width: 230px; }
+	.footerBottom .contact { padding-bottom: 30px; }
+	.footerBottom .link:nth-of-type(2n+3) { clear: both; }
+	.footerBottom .copyr { margin-top: 60px; }
+	
+	
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+	
+	.addBox { display: none; }
+	
+	.bannerBox .text { margin-left: -680px; }
+	.bannerBox .owl-dots { right: 20px; }
+	
+	.holidayBox h2 { font-size: 26px; }
+	.holidayBox h3 { font-size: 26px; }
+	.holidayBox .text li { margin-bottom: 10px; }
+	.serviceBox .item .sub span { font-size: 16px; }
+	
+	.bagBox .logo { display: none; }
+		
+	.eventsBox { padding: 60px 0; }	
+	.eventsBox .event li { padding: 8px 0; }
+	.eventsBox .item .sub { padding: 40px; }
+	.eventsBox .item .text { padding: 25px; }
+	.eventsBox .item .text p { padding: 0px; }
+	
+	.newsBox { padding: 50px 0; }
+	.newsBox .left .date { font-size: 12px; }
+	.newsBox .right .bag { width: 100%; }
+	.newsBox .right .visit { width: 100%; }
+	
+	.storeArea .rightColmun .packages .item:nth-of-type(2n+3) { clear: both; }
+	.storeArea .rightColmun .packages .item:nth-of-type(3n+4) { clear: none; }
+	
+	.contactusArea .address li { padding: 15px; }
+	.contactusArea .address li a { font-size: 15px; }
+	
+	.footerTop .stay h2 { margin: 15px 20px 0 0; font-size: 25px; }
+	.footerTop .stay .style, .footerTop .stay .tnp-email { width: 350px; }
+	
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1347px){
+	
+	.addBox strong { font-size: 18px; }
+	
+	.menuBox li { margin: 0 12px 0 0; }
+	
+	.bannerBox .text { margin-left: -800px; }
+	
+	.holidayBox h3 { font-size: 30px; }
+	.holidayBox .text li { margin-bottom: 10px; }
+	.holidayBox .mybtn { margin-top: 15px; }
+	
+	.eventsBox { padding: 60px 0; }
+	.eventsBox .item .text { padding: 30px; }
+	.eventsBox .item .text p { padding: 0px; }
+	
+	.newsBox .left .date { font-size: 14px; }
+	.newsBox .right .bag { width: 100%; }
+	.newsBox .right .visit { width: 100%; }
+	
+}
