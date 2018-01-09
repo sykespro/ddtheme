@@ -15,7 +15,7 @@ get_header(); $paged = ($_GET["paging"]) ? esc_attr($_GET["paging"]) : 1;  ?>
 
 				<div class="text">
 				
-					<h2><?php _e('News'); ?></h2>
+					<h2><?php _e('Press'); ?></h2>
 					
 				</div>	
 					
