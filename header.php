@@ -63,6 +63,10 @@
 					<a href="<?php the_field('twitter_link', 'option'); ?>" target="_blank" class="fa fa-twitter"></a>
 					
 				</aside>
+
+				<aside class="nonprofit">
+					a not-for-profit organization
+				</aside>
 			
 			</div>
 		</div>

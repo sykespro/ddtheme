@@ -49,42 +49,44 @@ get_header(); ?>
 	<section id="middleCntr">
 	
 		<!-- / holiday box \ -->
-		<article class="holidayBox">
-			<div class="mycontainer">
-			
-				<div class="row">
-					<aside class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+		<?php if( get_field('show_event_area') == 'Yes' ): ?>
+			<article class="holidayBox">
+				<div class="mycontainer">
+				
+					<div class="row">
+						<aside class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+							
+							<div id="holidaySlider" class="owl-carousel">
+								<?php if( have_rows('dutch_league_images') ): ?>
+									<?php while( have_rows('dutch_league_images') ): the_row(); ?>
+										<div class="item"><img src="<?php the_sub_field('image'); ?>" alt="alt" /></div>
+									<?php endwhile; ?>
+								<?php endif; ?>
+							</div>	
 						
-						<div id="holidaySlider" class="owl-carousel">
-							<?php if( have_rows('dutch_league_images') ): ?>
-								<?php while( have_rows('dutch_league_images') ): the_row(); ?>
-									<div class="item"><img src="<?php the_sub_field('image'); ?>" alt="alt" /></div>
-								<?php endwhile; ?>
-							<?php endif; ?>
-						</div>	
-					
-					</aside>
-					<aside class="text col-xs-12 col-sm-6 col-md-6 col-lg-6">
+						</aside>
+						<aside class="text col-xs-12 col-sm-6 col-md-6 col-lg-6">
+							
+							<h2><?php the_field('dutch_league_title'); ?></h2>
+							
+							<h4><?php the_field('dutch_league_sub_title'); ?></h4>
+							<h3><?php the_field('dutch_league_holiday_title'); ?></h3>
+							
+							<ul>
+								<li><i class="fa fa-calendar"></i> <?php the_field('dutch_league_date'); ?></li>
+								<li><i class="fa fa-clock-o"></i> <?php the_field('dutch_league_time'); ?></li>
+								<li><i class="fa fa-map-marker"></i> <?php the_field('dutch_league_address'); ?></li>
+							</ul>
+							
+							<a href="<?php the_field('dutch_league_btn_link'); ?>" class="mybtn">view details</a>
 						
-						<h2><?php the_field('dutch_league_title'); ?></h2>
+						</aside>
 						
-						<h4><?php the_field('dutch_league_sub_title'); ?></h4>
-						<h3><?php the_field('dutch_league_holiday_title'); ?></h3>
-						
-						<ul>
-							<li><i class="fa fa-calendar"></i> <?php the_field('dutch_league_date'); ?></li>
-							<li><i class="fa fa-clock-o"></i> <?php the_field('dutch_league_time'); ?></li>
-							<li><i class="fa fa-map-marker"></i> <?php the_field('dutch_league_address'); ?></li>
-						</ul>
-						
-						<a href="<?php the_field('dutch_league_btn_link'); ?>" class="mybtn">view details</a>
-					
-					</aside>
+					</div>
 					
 				</div>
-				
-			</div>
-		</article>
+			</article>
+		<?php endif; ?>
 		<!-- \ holiday box / -->
 		
 		<!-- / service box \ -->
@@ -163,7 +165,7 @@ get_header(); ?>
 					<aside class="event col-xs-12 col-sm-6 col-md-6 col-lg-6">
 						<div class="sub">
 						
-							<h2>NDDL <strong>events</strong></h2>
+							<h2>NDDL <strong>Lastest News</strong></h2>
 							
 							<ul>
 								<?php $args = array( 
@@ -178,7 +180,7 @@ get_header(); ?>
 								<?php endwhile; wp_reset_query(); ?>
 							</ul>
 							
-							<a href="<?php bloginfo('url'); ?>/news/" class="mybtn">all events</a>
+							<a href="<?php bloginfo('url'); ?>/news/" class="mybtn">View More</a>
 							
 						</div>
 					</aside>

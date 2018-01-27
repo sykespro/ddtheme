@@ -33,9 +33,10 @@ font-family: 'Raleway', sans-serif; font-family: 'Montserrat', sans-serif;
 		.headerTop .contact a:hover { color: #2d9bfa; }
 		.headerTop .contact a i { margin-right: 15px; position: relative;  }
 		.headerTop .contact span { position: absolute; top: 0px; left: 15px; font-family: 'Raleway', sans-serif; font-size: 12px; }
-		
+		.headerTop .nonprofit { font-size: smaller; margin-left: 160px; color: #c0c0c0; }
+
 		/* header bottom */
-		.headerBottom { width: 100%; float: left; background: #0f034e; }
+		.headerBottom { width: 100%; float: left; background: #215796; }
 		
 		.addBox { margin: 10px 0 0 10px; padding: 10px 20px; float: left; font-size: 18px; color: #fff; text-align: center; line-height: 31px; border: 1px solid #b9acfb; }
 		.addBox strong { display: block; font-size: 24px; font-weight: 700; text-transform: uppercase; }
@@ -77,7 +78,7 @@ font-family: 'Raleway', sans-serif; font-family: 'Montserrat', sans-serif;
 		.bannerBox .shape span { margin-right: 10px; display: inline-block; font-size: 86px; color: #fff; font-weight: 700; vertical-align: middle; line-height: normal; }
 		.bannerBox p { margin-bottom: 30px; }
 		.bannerBox .mybtn { padding: 9px 36px 7px 36px; display: inline-block; font-size: 16px; color: #fff; text-transform: uppercase; text-decoration: none; font-weight: 600; border: 1px solid #fff; }
-		.bannerBox .mybtn:hover { color: #0f034e; background: #fff; }
+		.bannerBox .mybtn:hover { color: #215796; background: #fff; }
 		
 		.bannerBox .owl-dots { position: absolute; top: 200px; right: 100px; }
 		.bannerBox .owl-dots .owl-dot { margin-bottom: 8px; width: 14px; height: 14px; display: block; border: 3px solid #fff; border-radius: 100%; background: #fff; }
@@ -100,11 +101,11 @@ font-family: 'Raleway', sans-serif; font-family: 'Montserrat', sans-serif;
 		.holidayBox { padding: 70px 0; width: 100%; float: left;	background: #f5f5f5; }
 		.holidayBox h2 { margin-bottom: 12px; font-size: 30px; color: #262626; font-weight: 300; }
 		.holidayBox h3 { margin-bottom: 13px; font-size: 38px; color: #262626; font-weight: 300; text-transform: uppercase; }
-		.holidayBox h4 { margin-bottom: 7px; font-size: 30px; color: #0f034e; font-weight: 500; line-height: 30px; }
+		.holidayBox h4 { margin-bottom: 7px; font-size: 30px; color: #215796; font-weight: 500; line-height: 30px; }
 		.holidayBox h4 cite { display: block; font-size: 18px; }
 		.holidayBox .text ul { list-style: none; }
-		.holidayBox .text li { margin-bottom: 18px; padding: 8px 0 8px 60px; position: relative; font-size: 20px; color: #0f034e; font-weight: 500; }
-		.holidayBox .text li i { position: absolute; top: 0px; left: 0px; width: 43px; height: 43px; color: #fff; text-align: center; line-height: 43px; background: #0f034e; }
+		.holidayBox .text li { margin-bottom: 18px; padding: 8px 0 8px 60px; position: relative; font-size: 20px; color: #215796; font-weight: 500; }
+		.holidayBox .text li i { position: absolute; top: 0px; left: 0px; width: 43px; height: 43px; color: #fff; text-align: center; line-height: 43px; background: #215796; }
 		.holidayBox .mybtn { margin-top: 25px; padding: 9px 20px 7px 20px; display: inline-block; font-size: 16px; color: #494949; text-transform: uppercase; text-decoration: none; font-weight: 500; border: 1px solid #494949; }
 		.holidayBox .mybtn:hover { border-color: #2d9bfa; color: #fff; background: #2d9bfa; }
 		.holidayBox .owl-dots { width: 100%; position: absolute; bottom: 12px; left: 0px; text-align: center; }
@@ -129,7 +130,7 @@ font-family: 'Raleway', sans-serif; font-family: 'Montserrat', sans-serif;
 		.bagBox .bag { padding: 0 10px; width: 275px; float: left; background: #fff; }
 		.bagBox .bag .image { margin: -20px 0; padding: 26px 0; width: 100%; float: left; position: relative; border: 2px solid #040016; }
 		.bagBox .bag .image img { margin: 0px auto; max-width: 100%; }
-		.bagBox .bag .image span { padding: 0 5px; min-width: 64px; height: 64px; position: absolute; top: 9px; right: 14px; font-size: 22px; color: #fff; font-weight: 600; text-align: center; line-height: 64px; border-radius: 100%; background: #0f034e; }
+		.bagBox .bag .image span { padding: 0 5px; min-width: 64px; height: 64px; position: absolute; top: 9px; right: 14px; font-size: 22px; color: #fff; font-weight: 600; text-align: center; line-height: 64px; border-radius: 100%; background: #215796; }
 		.bagBox .text { padding: 55px 0 0 30px; float: left; }
 		.bagBox .text h3 { margin-bottom: 15px; font-size: 30px; color: #fff; font-weight: 800; line-height: 40px; }
 		.bagBox .text .mybtn { padding: 12px 30px 9px 30px; display: inline-block; font-size: 16px; color: #fff; text-transform: uppercase; text-decoration: none; font-weight: 600; border: 1px solid #fff; }
@@ -150,7 +151,7 @@ font-family: 'Raleway', sans-serif; font-family: 'Montserrat', sans-serif;
 		.eventsBox .event li a { display: block; font-size: 18px; color: #262626; text-decoration: none; text-transform: uppercase; }
 		.eventsBox .event li span { display: block; font-size: 16px; color: #000; }
 		.eventsBox .event li:last-child { border-bottom: none; }
-		.eventsBox .event li:hover a { color: #0f034e; }
+		.eventsBox .event li:hover a { color: #215796; }
 		.eventsBox .event .mybtn { margin-top: 18px; padding: 9px 20px 7px 20px; display: inline-block; font-size: 16px; color: #494949; text-transform: uppercase; text-decoration: none; font-weight: 500; border: 1px solid #494949; }
 		.eventsBox .event .mybtn:hover { border-color: #2d9bfa; color: #fff; background: #2d9bfa; }
 		
@@ -187,7 +188,7 @@ font-family: 'Raleway', sans-serif; font-family: 'Montserrat', sans-serif;
 		.newsBox .left .news span { padding: 0 0 12px 0; margin-bottom: 12px; display: block; color: #515151; text-decoration: none; border-bottom: 1px solid #c2c2c2; }
 		.newsBox .left .news .mybtn { margin-top: 10px; padding: 12px 30px 10px 30px; display: inline-block; font-size: 16px; color: #494949; text-transform: uppercase; text-decoration: none; font-weight: 500; line-height: normal; border: 1px solid #494949; }
 		.newsBox .left .news .mybtn:hover { border-color: #2d9bfa; color: #fff; background: #2d9bfa; }
-		.newsBox .left .news .back { margin: 30px 0 0 0; display: inline-block; font-size: 16px; color: #0f034e; text-decoration: none; }
+		.newsBox .left .news .back { margin: 30px 0 0 0; display: inline-block; font-size: 16px; color: #215796; text-decoration: none; }
 		.newsBox .left .news .back img { margin: -4px 12px 0 0; width: auto; display: inline-block; vertical-align: middle; }
 		
 		.newsBox .left .page { padding: 0 0 0 10%; width: 100%; float: left; font-family: 'Montserrat', sans-serif; }
@@ -205,7 +206,7 @@ font-family: 'Raleway', sans-serif; font-family: 'Montserrat', sans-serif;
 		.newsBox .right .bag { width: 90%; float: left; background: #fff; }
 		.newsBox .right .bag .image { padding: 30px; width: 100%; float: left; position: relative; border: 2px solid #040016; }
 		.newsBox .right .bag .image img { margin: 0px auto; max-width: 100%; }
-		.newsBox .right .bag .image span { padding: 0 5px; min-width: 64px; height: 64px; position: absolute; top: 9px; right: 14px; font-size: 22px; color: #fff; font-weight: 600; text-align: center; line-height: 64px; border-radius: 100%; background: #0f034e; }
+		.newsBox .right .bag .image span { padding: 0 5px; min-width: 64px; height: 64px; position: absolute; top: 9px; right: 14px; font-size: 22px; color: #fff; font-weight: 600; text-align: center; line-height: 64px; border-radius: 100%; background: #215796; }
 		.newsBox .right .visit { margin: 10px 0 0 0; padding: 28px; width: 90%; float: left; text-align: center; background: url(../images/visit_bg.jpg) no-repeat top center / cover; }
 		.newsBox .right .visit img { margin: 0px auto 23px auto; }
 		.newsBox .right .visit h3 { font-size: 20px; color: #fff; font-weight: 700; text-align: center; text-transform: uppercase; line-height: 30px; }
@@ -247,7 +248,7 @@ font-family: 'Raleway', sans-serif; font-family: 'Montserrat', sans-serif;
 		.contactusArea .contactus span.wpcf7-not-valid-tip { display: none; }
 		.contactusArea .contactus .wpcf7-response-output { margin: 20px 0 0 0; width: 100%; float: left; color: #000; font-size: 14px; }
 		.contactusArea .contactus .mybtn { margin: 0 auto; width: 175px; height: 56px; display: block; font-size: 18px; color: #fff; font-weight: 700; text-transform: uppercase; border: none; background: #2d9bfa; }
-		.contactusArea .contactus .mybtn:hover { background: #0f034e; }
+		.contactusArea .contactus .mybtn:hover { background: #215796; }
 		.contactusArea .map { width: 100%; float: left; }
 		.contactusArea .map iframe { width: 100%; height: 360px; float: left; }
 		
@@ -278,7 +279,7 @@ font-family: 'Raleway', sans-serif; font-family: 'Montserrat', sans-serif;
 		.storeArea .rightColmun .services .image { padding: 20px; min-height: 172px; width: 22%; float: left; border: 1px solid #d3d3d3; }
 		.storeArea .rightColmun .services .image img { margin: 0px auto; max-width: 100%; height: auto; }
 		.storeArea .rightColmun .services .text { padding: 15px 22px; width: 77%; min-height: 172px; float: right; font-size: 20px; color: #000; line-height: 30px; border: 1px solid #d3d3d3; }
-		.storeArea .rightColmun .services .text strong { font-weight: 600; color: #0f034e; }
+		.storeArea .rightColmun .services .text strong { font-weight: 600; color: #215796; }
 		
 		.storeArea .rightColmun .packages { width: 100%; float: left; }
 		.storeArea .rightColmun .packages .row { margin: 0 -11px; }
@@ -296,7 +297,7 @@ font-family: 'Raleway', sans-serif; font-family: 'Montserrat', sans-serif;
 		.storeArea .rightColmun .packages .sub .text h3 span sup { font-size: 18px; }
 		.storeArea .rightColmun .packages .sub .text label { font-size: 14px; font-weight: 600; text-transform: uppercase; }
 		.storeArea .rightColmun .packages .sub .text select { padding: 0 10px; width: 75%; height: 36px; float: right; font-size: 14px; font-weight: 600; color: #000; text-transform: uppercase;}
-		.storeArea .rightColmun .packages .sub .text .mybtn { padding: 9px; width: 100%; position: absolute; bottom: 0px; left: 0px; font-size: 14px; font-weight: 600; color: #fff; text-align: center; text-decoration: none; text-transform: uppercase; background: #0f034e; }
+		.storeArea .rightColmun .packages .sub .text .mybtn { padding: 9px; width: 100%; position: absolute; bottom: 0px; left: 0px; font-size: 14px; font-weight: 600; color: #fff; text-align: center; text-decoration: none; text-transform: uppercase; background: #215796; }
 		.storeArea .rightColmun .packages .sub:hover figure { box-shadow: 0 0 20px rgba(0,0,0,0.2); }
 		
 		/* productdetails box */
@@ -306,13 +307,13 @@ font-family: 'Raleway', sans-serif; font-family: 'Montserrat', sans-serif;
 		.productdetailsBox .text { padding-left: 35px; font-size: 16px; color: #424242; line-height: 30px; }
 		.productdetailsBox .text h3 { margin-bottom: 15px; min-height: 82px; font-size: 35px; color: #424242; font-weight: 800; text-transform: uppercase; }
 		.productdetailsBox .text h4 { padding-bottom: 23px; margin-bottom: 17px; font-size: 16px; color: #424242; font-weight: 600; border-bottom: 1px solid #d3d3d3; }
-		.productdetailsBox .text h5 { margin-bottom: 20px; font-family: 'Montserrat', sans-serif; font-size: 28px; color: #0f034e; font-weight: 600; }
+		.productdetailsBox .text h5 { margin-bottom: 20px; font-family: 'Montserrat', sans-serif; font-size: 28px; color: #215796; font-weight: 600; }
 		.productdetailsBox .text h5 span { font-family: 'Raleway', sans-serif; font-size: 16px; color: #424242; }
 		.productdetailsBox .text p { margin-bottom: 10px; }
-		.productdetailsBox .text .blue { padding: 25px 0 20px 0; color: #0f034e; }
+		.productdetailsBox .text .blue { padding: 25px 0 20px 0; color: #215796; }
 		.productdetailsBox .text .mybtn { margin: 0 8px 0 0; padding: 10px 25px; display: inline-block; font-size: 16px; color: #686868; font-weight: 700; text-decoration: none; text-transform: uppercase; border: 1px solid #d3d3d3; }
 		.productdetailsBox .text .mybtn:hover { color: #fff; border-color: #2d9bfa; background: #2d9bfa; }
-		.productdetailsBox .text .back { margin: 30px 0 0 0; display: inline-block; font-size: 16px; color: #0f034e; text-decoration: none; }
+		.productdetailsBox .text .back { margin: 30px 0 0 0; display: inline-block; font-size: 16px; color: #215796; text-decoration: none; }
 		.productdetailsBox .text .back img { margin: -4px 12px 0 0; width: auto; display: inline-block; vertical-align: middle; }
 		
 		/* support area */
