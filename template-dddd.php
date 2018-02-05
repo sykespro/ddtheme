@@ -56,7 +56,7 @@ get_header(); the_post(); ?>
 					
 				</div>
 				<br>
-				<br>
+				
 				<div class="row">
 					
 					<aside class="pull-left col-xs-12 col-sm-4 col-md-4 col-lg-4">
@@ -83,7 +83,7 @@ get_header(); the_post(); ?>
 				<div class="mycontainer">
 			
 					<ul>
-						<li><a target="_blank" href="<?php the_field('address_link', 'option'); ?>"><i class="fa fa-map-marker"></i> <span><?php the_field('address', 'option'); ?></span></li>
+						<?php if( get_field('address', 'option') ): ?><li><a target="_blank" href="<?php the_field('address_link', 'option'); ?>"><i class="fa fa-map-marker"></i> <span><?php the_field('address', 'option'); ?></span></a></li><?php endif; ?>
 						<li><a href="mailto:<?php the_field('email_address', 'option'); ?>"><i class="fa fa-envelope"></i> <span><?php the_field('email_address', 'option'); ?></span></a></li>
 						<li><a href="<?php the_field('phone_number_1', 'option'); ?>"><i class="fa fa-phone"></i> <span><?php the_field('phone_number_1', 'option'); ?></span></a></li>
 					</ul>

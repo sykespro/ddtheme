@@ -33,7 +33,7 @@ font-family: 'Raleway', sans-serif; font-family: 'Montserrat', sans-serif;
 		.headerTop .contact a:hover { color: #2d9bfa; }
 		.headerTop .contact a i { margin-right: 15px; position: relative;  }
 		.headerTop .contact span { position: absolute; top: 0px; left: 15px; font-family: 'Raleway', sans-serif; font-size: 12px; }
-		.headerTop .nonprofit { font-size: smaller; margin-left: 160px; color: #c0c0c0; }
+		.headerTop .nonprofit { font-size: smaller; margin-left: 160px; color: #6b6a6a; }
 
 		/* header bottom */
 		.headerBottom { width: 100%; float: left; background: #215796; }
@@ -359,5 +359,7 @@ font-family: 'Raleway', sans-serif; font-family: 'Montserrat', sans-serif;
 		.footerBottom .contact .mybtn:hover { color: #fff; background: #2d9bfa; }
 		.footerBottom .link:last-child { font-family: 'Montserrat', sans-serif; }
 		
-		
+	/* content helpers */
+	.img-float-left { float: left; margin-right: 20px; }
+	.img-float-right { float: right; margin-left: 20px; }
 		

@@ -61,8 +61,8 @@ get_header(); the_post(); ?>
 					
 					<aside class="pull-left col-xs-12 col-sm-4 col-md-4 col-lg-4">
 						
-						<img src="<?php the_field('second_image'); ?>" alt="alt" />
-						
+						<?php if( get_field('second_image')): ?><img src="<?php the_field('second_image'); ?>" alt="alt" /><?php endif; ?>
+
 					</aside>
 					
 					<aside class="text col-xs-12 col-sm-8 col-md-8 col-lg-8">
