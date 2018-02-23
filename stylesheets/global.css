@@ -156,7 +156,7 @@ font-family: 'Raleway', sans-serif; font-family: 'Montserrat', sans-serif;
 		.eventsBox .event .mybtn:hover { border-color: #2d9bfa; color: #fff; background: #2d9bfa; }
 		
 		.eventsBox .item .sub { padding: 50px; width: 100%; float: left; }
-		.eventsBox .item .text { padding: 40px; width: 100%; float: left; font-size: 18px; color: #fff; text-align: center; line-height: 28px; background: rgba(15,3,78,0.8); }
+		.eventsBox .item .text { padding: 40px; width: 100%; float: left; font-size: 18px; color: #fff; text-align: center; line-height: 28px; background: rgba(33,80,150,0.8); }
 		.eventsBox .item .text h3 { margin-bottom: 10px; font-size: 30px; font-weight: 700; }
 		.eventsBox .item .text h3 a { color: #fff; text-decoration: none; }
 		.eventsBox .item .text p { padding: 0 45px; }

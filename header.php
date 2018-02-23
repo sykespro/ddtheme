@@ -90,13 +90,13 @@
 				
 					<?php wp_nav_menu('menu=mainmenu'); ?>
 					
-					<a href="<?php the_field('donate_link', 'option'); ?>" target="_blank" class="donate">Donate</a>
+					<a href="<?php the_field('donate_link', 'option'); ?>" class="donate">Donate</a>
 					
 				</nav>
 				
 				<nav class="mobilemenuBox">
 					
-					<a href="<?php the_field('donate_link', 'option'); ?>" target="_blank" class="donate">Donate</a>
+					<a href="<?php the_field('donate_link', 'option'); ?>" class="donate">Donate</a>
 					
 					<a href="#mmenu" class="menutoggle fa fa-bars"></a>
 					
