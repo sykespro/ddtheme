@@ -65,7 +65,7 @@
 				</aside>
 
 				<aside class="nonprofit">
-					a not-for-profit organization
+					
 				</aside>
 			
 			</div>

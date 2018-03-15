@@ -222,13 +222,14 @@ get_header(); ?>
 						<?php the_field('history_short_description'); ?>
 						
 						<a href="<?php the_field('history_link'); ?>" class="mybtn">read more</a>
-					
+
 					</aside>
 					
 					<aside class="pull-right col-xs-12 col-sm-4 col-md-4 col-lg-4">
 						
 						<img src="<?php the_field('history_image'); ?>" alt="alt" />
-						
+						<div style="font-size:smaller;"><?php the_field('history_image_caption'); ?></div>		
+
 					</aside>
 					
 				</div>

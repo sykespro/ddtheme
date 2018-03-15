@@ -10,6 +10,7 @@ get_header(); $paged = ($_GET["paging"]) ? esc_attr($_GET["paging"]) : 1;  ?>
 	<section id="bannerCntr">
 		
 		<!-- / inner box \ -->
+		<!--
 		<article class="innerbannerBox" style="background: url(<?php if(get_field('banner_image')): ?><?php the_field('banner_image'); ?><?php else: ?><?php the_field('banner_image',9); ?><?php endif; ?>) no-repeat top center / cover;">
 			<div class="mycontainer">
 
@@ -20,7 +21,7 @@ get_header(); $paged = ($_GET["paging"]) ? esc_attr($_GET["paging"]) : 1;  ?>
 				</div>	
 					
 			</div>
-		</article>
+		</article> -->
 		<!-- \ banner box / -->
 	
 	</section>
